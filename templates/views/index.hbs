@@ -1,0 +1,24 @@
+<html>
+    
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+
+            <p>Use this site to get weather details</p>
+
+            <form>
+                <input placeholder="Location">
+                <button type="submit" value="search">Search</button>
+            </form>
+
+            <p id="message"></p>
+        </div>
+
+        <script src="/js/common.js"></script>
+        {{>footer}}
+    </body>
+</html>
